@@ -1297,3 +1297,15 @@ nav a:hover{
 
 
 }
+
+.contato-card h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* espaço entre o ícone e o texto */
+}
+
+.contato-card h3 i{
+    color: #7c5cff;
+    font-size: 28px;
+}
