@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Camile Vitória Dias, estudante de Desenvolvimento de Software Multiplataforma.">
+    <title>Camile Vitória Dias | Portfólio</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a class="logo" href="#inicio" aria-label="Voltar ao início">Camile<span>.</span></a>
+    <nav aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">Estudante de tecnologia · FATEC Registro</p>
+            <h1>Eu gosto de transformar<br><span>problemas em soluções.</span></h1>
+            <p class="hero-description">
+                Sou Camile Vitória, estudante de Desenvolvimento de Software Multiplataforma.
+                Estou construindo minha carreira em tecnologia por meio de projetos, estudos e muita prática.
+            </p>
+            <div class="hero-actions">
+                <a class="button button-primary" href="#projetos">Conhecer meus projetos</a>
+                <a class="button button-secondary" href="assets/curriculo/Curriculo_Camile_Dias.pdf" target="_blank" rel="noopener noreferrer">Visualizar currículo</a>
+            </div>
+            <div class="social-links" aria-label="Redes profissionais">
+                <a href="https://www.linkedin.com/in/camile-vitoria-dias" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/camilemvdias-source" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:camilemvdias@gmail.com" aria-label="Enviar e-mail"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-profile">
+            <div class="photo-frame">
+                <img src="assets/img/foto.png" alt="Camile Vitória Dias">
+            </div>
+            <p class="profile-caption"><strong>3º semestre de DSM</strong> · FATEC Registro</p>
+        </div>
+    </section>
+
+    <section id="sobre" class="section about">
+        <div class="section-heading">
+            <p class="eyebrow">Minha história</p>
+            <h2>Estou começando na tecnologia,<br>mas já estou construindo.</h2>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-text">
+                <p>Minha trajetória profissional começou na ETEC de Registro, onde cursei Técnico em Administração. Foi nesse período que desenvolvi uma base importante de organização, responsabilidade, comunicação e trabalho em equipe. Também foi quando comecei a perceber que gosto de participar ativamente das atividades, tomar iniciativa e buscar maneiras de contribuir com aquilo que estou fazendo.</p>
+                <p>Hoje, estou no 3º semestre de Desenvolvimento de Software Multiplataforma na FATEC Registro e venho encontrando cada vez mais espaço para colocar essas características em prática. Atualmente, atuo como Product Owner (PO) da squad Header, Busca e Vitrine, dentro do Laboratório de Práticas da faculdade. Assumir essa função logo na minha primeira experiência prática tem sido uma oportunidade importante de desenvolvimento, principalmente em organização, comunicação, tomada de iniciativa, acompanhamento das atividades e trabalho em equipe.</p>
+                <p>Além da faculdade, também atuo como voluntária no Projeto Base, como Desenvolvedora Full Stack, contribuindo tanto no Front-end quanto no Back-end de aplicações web. No dia a dia, trabalho com PHP e Laravel, manipulação e integração de dados com MySQL, e colaboro com a equipe utilizando Git e GitHub. Essa experiência representa uma nova etapa na minha formação, na qual venho desenvolvendo habilidades técnicas, conhecendo melhor a dinâmica de um ambiente de tecnologia e adquirindo experiências relacionadas ao trabalho em equipe e ao contexto corporativo.</p>
+                <p>Também gosto de me envolver em projetos e atividades além do que é obrigatório. Participo de projetos acadêmicos, iniciativas dentro da faculdade e trabalhos voluntários, sempre buscando aprender algo novo e contribuir de forma ativa. Essas experiências vêm me mostrando que proatividade não é apenas tomar a frente de uma tarefa, mas também ter iniciativa para aprender, colaborar e buscar soluções.</p>
+                <p>Ainda estou construindo minha carreira, mas cada projeto e experiência tem me ajudado a entender melhor a profissional que quero me tornar. Busco uma oportunidade em tecnologia onde eu possa continuar aprendendo, assumir responsabilidades, contribuir com o que já sei e transformar conhecimento em resultados reais.</p>
+            </div>
+
+            <aside class="about-side">
+                <div class="about-carousel" id="aboutCarousel">
+                    <div class="carousel-track" id="carouselTrack"></div>
+                    <div class="carousel-dots" id="carouselDots"></div>
+                </div>
+
+                <div class="fact-list">
+                    <div class="fact">
+                        <span>01</span>
+                        <div><strong>Formação</strong><p>DSM · FATEC Registro</p></div>
+                    </div>
+                    <div class="fact">
+                        <span>02</span>
+                        <div><strong>Experiência em tecnologia</strong><p>PO · Full Stack</p></div>
+                    </div>
+                    <div class="fact">
+                        <span>03</span>
+                        <div><strong>Onde quero evoluir</strong><p>Back-end, APIs e dados</p></div>
+                    </div>
+                    <div class="fact">
+                        <span>04</span>
+                        <div><strong>Objetivo atual</strong><p>Primeira oportunidade em tecnologia</p></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="section technologies">
+        <div class="section-heading centered">
+            <p class="eyebrow">Ferramentas que estudo</p>
+            <h2>Construindo minha base técnica.</h2>
+            <p>Algumas das tecnologias que venho usando nos estudos e projetos da faculdade.</p>
+        </div>
+
+        <div class="tech-list">
+            <div class="tech-item"><i class="devicon-html5-plain"></i><span>HTML</span></div>
+            <div class="tech-item"><i class="devicon-css3-plain"></i><span>CSS</span></div>
+            <div class="tech-item"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+            <div class="tech-item"><i class="devicon-nodejs-plain"></i><span>Node.js</span></div>
+            <div class="tech-item"><i class="devicon-python-plain"></i><span>Python</span></div>
+            <div class="tech-item"><i class="devicon-mysql-plain"></i><span>MySQL</span></div>
+            <div class="tech-item"><i class="devicon-git-plain"></i><span>Git</span></div>
+            <div class="tech-item"><i class="devicon-github-original"></i><span>GitHub</span></div>
+        </div>
+    </section>
+
+    <section id="projetos" class="section projects">
+        <div class="section-heading">
+            <p class="eyebrow">Na prática</p>
+            <h2>Projetos que mostram<br>o que estou aprendendo.</h2>
+            <p>Quero que cada projeto tenha um motivo para existir — não apenas uma lista de tecnologias.</p>
+        </div>
+
+        <div class="project-list">
+            <article class="project-card project-featured">
+                <div class="project-content">
+                    <span class="project-number">01 · DESAFIO BACKEND LACREI</span>
+                    <h3>Uma API REST para gerenciamento de consultas.</h3>
+                    <p>
+                        Projeto desenvolvido como experiência prática em backend, com foco em construir uma API RESTful para gerenciamento de consultas médicas. Trabalhei com Python, Django e Django REST Framework, além de PostgreSQL, Docker, Poetry, GitHub Actions e participação no processo de deploy na AWS.
+                    </p>
+                    <div class="tags"><span>Python</span><span>Django</span><span>DRF</span><span>PostgreSQL</span><span>Docker</span><span>CI/CD</span></div>
+                    <div class="project-actions">
+                        <a href="https://github.com/camilemvdias-source/desafio-backend-lacrei" target="_blank" rel="noopener noreferrer">GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-content">
+                    <span class="project-number">02 · CONTROLE FINANCEIRO</span>
+                    <h3>Uma forma simples de acompanhar o dinheiro do dia a dia.</h3>
+                    <p>
+                        Criei uma aplicação para registrar receitas e despesas, buscar transações e visualizar a movimentação financeira sem depender de uma planilha. O projeto foi uma forma de praticar CRUD, filtros, armazenamento no navegador e visualização de dados.
+                    </p>
+                    <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Chart.js</span></div>
+                    <div class="project-actions">
+                        <a href="https://github.com/camilemvdias-source/Controle-financeiro" target="_blank" rel="noopener noreferrer">GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://camilemvdias-source.github.io/Controle-financeiro/" target="_blank" rel="noopener noreferrer">Ver projeto <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card project-upcoming">
+                <div class="project-content">
+                    <span class="project-number">03 · EM CONSTRUÇÃO</span>
+                    <h3>Meu próximo projeto está em andamento.</h3>
+                    <p>
+                        Estou desenvolvendo um novo projeto para resolver um problema real do meu dia a dia. Volte em breve para conferir.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contato" class="section contact">
+        <div class="contact-box">
+            <p class="eyebrow">Vamos conversar?</p>
+            <h2>Estou procurando minha primeira oportunidade em tecnologia.</h2>
+            <p>
+                Se você está procurando alguém no início da carreira, com vontade de aprender e disposição para colocar a mão na massa,
+                vou gostar de conhecer a oportunidade e conversar sobre como posso contribuir.
+            </p>
+            <div class="contact-actions">
+                <a class="button button-primary" href="mailto:camilemvdias@gmail.com">Enviar e-mail</a>
+                <a class="button button-secondary" href="https://www.linkedin.com/in/camile-vitoria-dias" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <a href="#inicio">Voltar ao início ↑</a>
+</footer>
+
+
+<script>
+    (function () {
+        const images = [
+            { src: 'assets/img/sobre/img1.jpg', alt: 'Camile lendo um livro de algoritmos' },
+            { src: 'assets/img/sobre/img2.jpg', alt: 'Camile em evento acadêmico' },
+            { src: 'assets/img/sobre/img3.jpeg', alt: 'Camile em atividade da faculdade' },
+            { src: 'assets/img/sobre/img4.jpeg', alt: 'Camile em momento pessoal' }
+        ];
+
+        const track = document.getElementById('carouselTrack');
+        const dotsWrap = document.getElementById('carouselDots');
+        if (!track || !dotsWrap) return;
+
+        let current = 0;
+        let timer = null;
+        const INTERVAL = 4000;
+
+        images.forEach((img, i) => {
+            const el = document.createElement('img');
+            el.src = img.src;
+            el.alt = img.alt;
+            el.loading = 'lazy';
+            if (i === 0) el.classList.add('active');
+            track.appendChild(el);
+
+            const dot = document.createElement('button');
+            dot.type = 'button';
+            dot.setAttribute('aria-label', 'Ir para a imagem ' + (i + 1));
+            if (i === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => goTo(i));
+            dotsWrap.appendChild(dot);
+        });
+
+        const slides = track.querySelectorAll('img');
+        const dots = dotsWrap.querySelectorAll('button');
+
+        function goTo(index) {
+            slides[current].classList.remove('active');
+            dots[current].classList.remove('active');
+            current = (index + slides.length) % slides.length;
+            slides[current].classList.add('active');
+            dots[current].classList.add('active');
+            resetTimer();
+        }
+
+        function next() {
+            goTo(current + 1);
+        }
+
+        function resetTimer() {
+            clearInterval(timer);
+            timer = setInterval(next, INTERVAL);
+        }
+
+        if (slides.length > 1) {
+            resetTimer();
+        }
+    })();
+</script>
+</body>
+</html>
